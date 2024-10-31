@@ -18,7 +18,7 @@ public class PkmnApplication {
 
     public static void main(String[] args) throws IOException, SQLException {
 
-        //подставить путь my_card.txt
+        //путь my_card.txt
         CardImport cardImport = new CardImport("C:\\Users\\kdzam\\IdeaProjects\\Pkmn4\\src\\main\\resources\\my_card.txt");
         Card pokemon = cardImport.createPokemon();
 

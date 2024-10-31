@@ -21,7 +21,7 @@ public class DatabaseServiceImpl implements DatabaseService {
 
 
         databaseProperties = new Properties();
-        //подставить путь database.properties
+        //путь database.properties
         databaseProperties.load(new FileInputStream("C:\\Users\\kdzam\\IdeaProjects\\Pkmn4\\src\\main\\resources\\database.properties"));
 
         connection = DriverManager.getConnection(
