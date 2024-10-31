@@ -1,4 +1,4 @@
-package org.example.web.http;
+package ru.mirea.pkmn.kazbekovajm.web.http;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.json.JsonMapper;

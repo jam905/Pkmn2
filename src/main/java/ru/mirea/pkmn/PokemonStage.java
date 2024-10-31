@@ -1,4 +1,4 @@
-package org.example;
+package ru.mirea.pkmn;
 
 
 public enum PokemonStage {

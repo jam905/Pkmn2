@@ -1,8 +1,10 @@
-package org.example;
+package ru.mirea.pkmn.kazbekovajm.web;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import org.example.web.http.PkmnHttpClient;
-import org.example.web.jdbc.DatabaseServiceImpl;
+import ru.mirea.pkmn.AttackSkill;
+import ru.mirea.pkmn.Card;
+import ru.mirea.pkmn.kazbekovajm.web.http.PkmnHttpClient;
+import ru.mirea.pkmn.kazbekovajm.web.jdbc.DatabaseServiceImpl;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -17,7 +19,7 @@ public class PkmnApplication {
     public static void main(String[] args) throws IOException, SQLException {
 
         //подставить путь my_card.txt
-        CardImport cardImport = new CardImport("C:\\Users\\vladt\\IdeaProjects\\pokemons\\src\\main\\resources\\my_card.txt");
+        CardImport cardImport = new CardImport("C:\\Users\\kdzam\\IdeaProjects\\Pkmn4\\src\\main\\resources\\my_card.txt");
         Card pokemon = cardImport.createPokemon();
 
         PkmnHttpClient pkmnHttpClient = new PkmnHttpClient();

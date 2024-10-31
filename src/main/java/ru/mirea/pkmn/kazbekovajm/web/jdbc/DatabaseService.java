@@ -1,7 +1,7 @@
-package org.example.web.jdbc;
+package ru.mirea.pkmn.kazbekovajm.web.jdbc;
 
-import org.example.Card;
-import org.example.Student;
+import ru.mirea.pkmn.Card;
+import ru.mirea.pkmn.Student;
 
 import java.sql.SQLException;
 

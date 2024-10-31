@@ -1,7 +1,8 @@
-package org.example;
+package ru.mirea.pkmn.kazbekovajm.web;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import ru.mirea.pkmn.*;
 
 import java.io.BufferedReader;
 import java.io.*;

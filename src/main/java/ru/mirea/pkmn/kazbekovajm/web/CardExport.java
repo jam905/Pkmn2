@@ -1,4 +1,6 @@
-package org.example;
+package ru.mirea.pkmn.kazbekovajm.web;
+
+import ru.mirea.pkmn.Card;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

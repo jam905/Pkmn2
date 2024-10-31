@@ -1,4 +1,4 @@
-package org.example;
+package ru.mirea.pkmn;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

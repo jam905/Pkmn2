@@ -1,8 +1,8 @@
-package org.example.web.jdbc;
+package ru.mirea.pkmn.kazbekovajm.web.jdbc;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.*;
+import ru.mirea.pkmn.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,7 +22,7 @@ public class DatabaseServiceImpl implements DatabaseService {
 
         databaseProperties = new Properties();
         //подставить путь database.properties
-        databaseProperties.load(new FileInputStream("C:\\Users\\vladt\\IdeaProjects\\pokemons\\src\\main\\resources\\database.properties"));
+        databaseProperties.load(new FileInputStream("C:\\Users\\kdzam\\IdeaProjects\\Pkmn4\\src\\main\\resources\\database.properties"));
 
         connection = DriverManager.getConnection(
                 databaseProperties.getProperty("database.url"),

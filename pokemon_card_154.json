@@ -61,20 +61,20 @@
     },
     "tcgplayer" : {
       "url" : "https://prices.pokemontcg.io/tcgplayer/swsh9-154",
-      "updatedAt" : "2024/10/30",
+      "updatedAt" : "2024/10/31",
       "prices" : {
         "holofoil" : {
           "low" : 114.0,
-          "mid" : 161.98,
+          "mid" : 161.95,
           "high" : 1500.0,
-          "market" : 138.6,
-          "directLow" : 161.94
+          "market" : 141.47,
+          "directLow" : 162.0
         }
       }
     },
     "cardmarket" : {
       "url" : "https://prices.pokemontcg.io/cardmarket/swsh9-154",
-      "updatedAt" : "2024/10/30",
+      "updatedAt" : "2024/10/31",
       "prices" : {
         "averageSellPrice" : 161.75,
         "lowPrice" : 75.0,
